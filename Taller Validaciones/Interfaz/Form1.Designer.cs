@@ -45,7 +45,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.cbTipoDocumento = new System.Windows.Forms.ComboBox();
+            this.cboTipoDocumento = new System.Windows.Forms.ComboBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.erpMensaje = new System.Windows.Forms.ErrorProvider(this.components);
@@ -108,6 +108,7 @@
             // 
             // cbRango
             // 
+            this.cbRango.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbRango.FormattingEnabled = true;
             this.cbRango.Location = new System.Drawing.Point(307, 32);
             this.cbRango.Name = "cbRango";
@@ -125,7 +126,7 @@
             this.gbInformacionPaciente.Controls.Add(this.radioButton1);
             this.gbInformacionPaciente.Controls.Add(this.label4);
             this.gbInformacionPaciente.Controls.Add(this.label6);
-            this.gbInformacionPaciente.Controls.Add(this.cbTipoDocumento);
+            this.gbInformacionPaciente.Controls.Add(this.cboTipoDocumento);
             this.gbInformacionPaciente.Location = new System.Drawing.Point(25, 14);
             this.gbInformacionPaciente.Name = "gbInformacionPaciente";
             this.gbInformacionPaciente.Size = new System.Drawing.Size(643, 118);
@@ -166,7 +167,6 @@
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(73, 17);
             this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "&Masculino";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -177,10 +177,12 @@
             this.txtNumeroDocumento.Size = new System.Drawing.Size(176, 20);
             this.txtNumeroDocumento.TabIndex = 3;
             this.ttMensaje.SetToolTip(this.txtNumeroDocumento, "Ingrese el número de su Documento");
+            this.txtNumeroDocumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroDocumento_KeyPress);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(136, 89);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(71, 17);
@@ -207,14 +209,15 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "&Sexo";
             // 
-            // cbTipoDocumento
+            // cboTipoDocumento
             // 
-            this.cbTipoDocumento.FormattingEnabled = true;
-            this.cbTipoDocumento.Location = new System.Drawing.Point(136, 55);
-            this.cbTipoDocumento.Name = "cbTipoDocumento";
-            this.cbTipoDocumento.Size = new System.Drawing.Size(176, 21);
-            this.cbTipoDocumento.TabIndex = 7;
-            this.ttMensaje.SetToolTip(this.cbTipoDocumento, "Seleccione el Tipo de Documento");
+            this.cboTipoDocumento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboTipoDocumento.FormattingEnabled = true;
+            this.cboTipoDocumento.Location = new System.Drawing.Point(136, 55);
+            this.cboTipoDocumento.Name = "cboTipoDocumento";
+            this.cboTipoDocumento.Size = new System.Drawing.Size(176, 21);
+            this.cboTipoDocumento.TabIndex = 7;
+            this.ttMensaje.SetToolTip(this.cboTipoDocumento, "Seleccione el Tipo de Documento");
             // 
             // btnCancelar
             // 
@@ -253,6 +256,7 @@
             this.MaximizeBox = false;
             this.Name = "frmRegistroPrestacionServicios";
             this.Text = "Registro de Prestación de Servicios";
+            this.Load += new System.EventHandler(this.frmRegistroPrestacionServicios_Load);
             this.pnlPrincipal.ResumeLayout(false);
             this.gbServicio.ResumeLayout(false);
             this.gbServicio.PerformLayout();
@@ -280,7 +284,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbTipoDocumento;
+        private System.Windows.Forms.ComboBox cboTipoDocumento;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.ErrorProvider erpMensaje;

@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\ControlTaller.cs" />
+    <Compile Include="Entidades\TipoDocumento.cs" />
     <Compile Include="Interfaz\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entidades\" />
     <Folder Include="Recursos\Iconos\" />
     <Folder Include="Recursos\Imagenes\" />
   </ItemGroup>
