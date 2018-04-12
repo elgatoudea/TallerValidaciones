@@ -1,0 +1,10 @@
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.exe.config
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.exe
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.pdb
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csprojResolveAssemblyReference.cache
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.Properties.Resources.resources
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csproj.GenerateResource.Cache
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csproj.CoreCompileInputs.cache
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.exe
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.pdb
+D:\Duvan Villa\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.frmRegistroPrestacionServicios.resources
