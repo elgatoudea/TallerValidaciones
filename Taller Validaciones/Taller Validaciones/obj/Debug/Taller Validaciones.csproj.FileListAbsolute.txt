@@ -17,3 +17,13 @@ D:\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csprojR
 D:\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.frmRegistroPrestacionServicios.resources
 D:\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.Properties.Resources.resources
 D:\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csproj.GenerateResource.Cache
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.exe.config
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.exe
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\bin\Debug\Taller Validaciones.pdb
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.frmRegistroPrestacionServicios.resources
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller_Validaciones.Properties.Resources.resources
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csproj.GenerateResource.Cache
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.exe
+C:\Users\Estudiante\Documents\Nueva carpeta\Taller Validaciones\Taller Validaciones\obj\Debug\Taller Validaciones.pdb

@@ -47,17 +47,17 @@
   <ItemGroup>
     <Compile Include="Control\ControlTaller.cs" />
     <Compile Include="Entidades\TipoDocumento.cs" />
-    <Compile Include="Interfaz\Form1.cs">
+    <Compile Include="Interfaz\frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Interfaz\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Interfaz\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Entidades\TipoRango.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Interfaz\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Interfaz\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
